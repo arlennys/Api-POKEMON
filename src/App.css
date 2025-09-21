@@ -1,0 +1,55 @@
+/* Estilo general del body */
+body {
+  font-family:'Times New Roman', Times, serif;
+  background-color: #5fb184;
+  margin: 0;
+  padding: 0;
+}
+
+/* Título principal */
+h1 {
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-radius: 100px;
+  padding:200x 200px ;
+  background-color: #dbdbdb;
+}
+
+/* Contenedor principal */
+.app-container {
+  padding: 20px;
+}
+
+/* Grilla para los pokémon */
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  justify-items: center;
+}
+
+/* Controles de paginación */
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #0ea5e9;
+  color: white;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.pagination button:hover {
+  background-color: #0284c7;
+}
+
